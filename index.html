@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Victor</title>
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/estilo.css">
+</head>
+
+<body>
+    <header class="background-black color-white container-flex justify-around header align-center">
+        <a href="index.html" class="brand container-flex direction-column justify-center">
+            <h1>João Victor</h1>
+        </a>
+        <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox" class="burguer">
+                <div class="top"></div>
+                <div class="center"></div>
+                <div class="bottom"></div>
+            </label>
+        <nav class="nav"> 
+            <ul class="container-flex">
+                <label for="checkbox">
+                    <a class="close">X</a>
+                 </label>
+                <li class="space-10px"><a href="index.html" class="color-white container-flex direction-column">Home</a>
+                </li>
+                <li class="space-10px"><a href="#who-i-am" class="color-white container-flex direction-column">Quem
+                        sou?</a></li>
+                <li class="space-10px"><a href="#projects" class="color-white container-flex direction-column">Projetos</a></li>
+                <li class="space-10px"><a href="#contact" class="color-white container-flex direction-column">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <h2 class="title-default">
+            olá, me chamo <br> 
+            <p>João victor de castro oliveira</p>
+          </h2> 
+          <h2 class="subtitle-welcome">desenvolvedor backend/fullstack</h2>
+          <div class="row-buttons">
+            <a href="https://www.linkedin.com/in/jvcoliveira2002/" target="_blank" rel="noopener noreferrer" class="button">
+              <i class="ri-linkedin-box-fill"></i>
+              linkedin
+            </a>
+            <a href="https://github.com/jvcomputacao" target="_blank" rel="noopener noreferrer" class="button">
+              <i class="ri-github-fill"></i>
+              github
+            </a>
+          </div>  
+          
+
+
+        
+        <article class="who-me padding-section" id="who-i-am">
+            <div class="container-title-subtitle container-flex direction-column justify-center color-white">
+                <h2 class="title-section">Sobre mim</h2>
+            </div>
+            <section class="container-about container-flex">
+                
+                <div class="picture">
+                </div>
+                <div class="about-me color-white">
+                    
+                    <h2 class="title-about-me">Programador Pragmatico</h2>
+
+                    <p class="subtitle-section text">Programador e Cientista da computação formado na Uespi
+                        Estudo as formas como a programação pode resolver os mais diversos problemas.
+                    </p>
+
+                    <div class="tech-skills">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="C#" >
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" alt="dotnetcore">                     
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" alt="Angular">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="git">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" alt="flutter">                       
+
+                    </div>
+                </div>
+                
+            </section>
+            
+        </article>
+        <article class="background-black padding-section section-projects container-flex direction-column align-center" id="projects">
+            <div class="container-title-subtitle color-white container-flex direction-column">
+                <h2 class="title-section">Projetos</h2>
+                <p class="subtitle-section">Alguns dos projetos que tive o prazer de trabalhar</p>
+            </div>
+
+            <div class="projects container-flex direction-row justify-center align-start flex-wrap">
+                <section class="project color-black background-white">
+                    <div class="project-img project_2">
+
+                    </div>
+                    <div class="container-flex direction-column">
+                        <h2 class="title-projects">Banco de Sangue</h2>
+                        <p class="text-projects">Projeto conceito criado como forma de estudo de React e Django como backend. Tem como objetivo ser um site informativo sobre doação de sangue.</p>
+                    </div>
+                </section>
+                <section class="project color-black background-white">
+                    <div class="project-img project_3">
+
+                    </div>
+                    <div class="container-flex direction-column">
+                        <h2 class="title-projects">Teste do Relogio</h2>
+                        <p class="text-projects">Projeto desenvolvido para adaptar o Teste do Desenho de Relógio para dispositivos móveis. Utiliza a linguagem Dart e o framework Flutter</p>
+                    </div>
+                </section>
+                <section class="project color-black background-white">
+                    <div class="project-img project_1">
+
+                    </div>
+                    <div class="container-flex direction-column">
+                        <h2 class="title-projects">Concursos publicos</h2>
+                        <p class="text-projects">Projeto voltado para criação de uma plataforma para ofertar concursos públicos e testes seletivos pela banca de prova.</p>
+                    </div>
+                </section>
+            </div>
+        </article>
+    </main>
+</body>
+<footer class="background-black color-white padding-section" id="contact">
+    <div class="container-title-subtitle container-flex direction-column justify-center align-center">
+        <h2 class="title-section">Contato</h2>
+        <p class="subtitle-section">Entre em contato comigo através das minhas redes sociais.</p>
+    </div>
+
+    <div class="contact-info container-flex direction-row justify-around">
+        <div class="contact-item">
+            <h3>Email</h3>
+            <p>jvcomputacao@gmail.com</p>
+        </div>
+        <div class="contact-item">
+            <h3>Telefone</h3>
+            <p>(99) 98782-4439</p>
+        </div>
+        <div class="contact-item">
+            <h3>Localização</h3>
+            <p>Parnaiba, Piauí</p>
+        </div>
+    </div>
+
+    <div class="social-links container-flex justify-center align-center">
+        <a href="https://www.linkedin.com/in/jvcoliveira2002/" target="_blank" class="social-icon">
+            <i class="devicon-linkedin-plain"></i>
+        </a>
+        <a href="https://github.com/jvcomputacao" target="_blank" class="social-icon">
+            <i class="devicon-github-original"></i>
+        </a>
+        <a href="img/curricu.pdf" download class="button">
+            Baixar Currículo
+        </a>
+    </div>
+</footer>
+</html>
